@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    background-color: rgb(16, 43, 64);
+}
+
+.header-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.header-element{
+    display: flex;
+}
+
+.green-line{
+    width: 70px;
+    height: 5px;
+    background-color: rgb(28, 200, 160);
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.green-box{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(28, 200, 160);
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.main-section
+{
+    background-color: rgb(206, 216, 225);
+    width: 100vw; 
+    height: min-content;
+}
+
+.main-section-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%; 
+    align-items: center;
+    margin: auto;
+    height: 23vh;
+}
+
+.main-section-element{
+    display: flex;
+}
+
+.blue-box{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(16, 43, 64);
+    border-radius: 12px;   
+}
+
+.main-section-element .green-line{
+    margin-top: 70px;
+}
+
+
+.blue-section{
+    background-color: rgb(16, 43, 64);
+    width: 100vw;
+    padding-bottom: 15%;
+}
+
+.blue-section-container{
+    display: flex;
+    width: 90%; 
+    margin: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position:relative;
+}
+
+.blue-section-element:first-child{
+    margin-top: 10vh;
+}
+
+.blue-section-element{
+    display: flex;
+    padding: 15px 0;
+}
+
+.blue-section-green-line{
+    width: 70px;
+    height: 10px;
+    background-color: rgb(28, 200, 160);
+    border-radius: 12px;
+    margin: 0 8px;
+}
+
+.gray-line{
+    width: 40px;
+    height: 5px;
+    background-color: rgb(206, 216, 225);
+    border-radius: 12px;
+    margin: 0 3px;
+}
+
+.green-button{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(28, 200, 160);
+    border-radius: 25px;  
+}
+
+
+.white-section{
+    background-color: rgb(206, 216, 225);
+    width: 100vw; 
+    padding-bottom: 10%;
+    height: min-content;
+}
+
+.white-section-container{
+    width: 90%;
+    margin: auto;
+}
+
+.white-section-elements{
+    display: flex;
+    justify-content: center;
+    padding: 0 20px; 
+}
+
+
+.box-1{
+    position: absolute;
+    bottom: -15%;
+    left: 15%;
+}
+
+.box-2{
+    position: absolute;
+    bottom: -15%;
+    left: 39%;
+}
+
+.box-3{
+    position: absolute;
+    bottom: -15%;
+    right: 15%;
+}
+
+.white-section-green-box{
+    width: 22%;
+    height: 25%;
+    background-color: rgb(28, 200, 160);
+    border-radius: 12px; 
+}
+
+.white-section-green-line{
+    width: 70px;
+    height: 10px;
+    background-color: rgb(28, 200, 160);
+    border-radius: 12px;
+    margin: 160px 8px 8px 8px;
+}
+
+.white-section-six-boxes{
+    border: 2px solid rgb(16, 43, 64);
+    border-radius: 12px;
+    margin: 40px 20px;
+}
+
+.col-4 {
+    width: calc(100% * 4 / 12);
+}
+
+.col-4 .blue-box{
+    width: 23vw;
+    margin : 16px auto;
+    height: 144px;
+}
+
+.col-4 .green-lines{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-green-lines{
+    display: flex;
+}
+
+.two-green-lines .green-line{
+    width: 20px;
+    margin: 20px 3px;
+}
+
+div.two-green-lines:nth-child(2)
+{
+    margin-right: 20px;
+}
+
+.blue-line{
+    width: 30px;
+    height: 5px;
+    background-color: rgb(16, 43, 64);
+    border-radius: 12px;
+    margin: 10px 3px;
+}
+
+.blue-lines{
+    display: flex;
+    
+}
+
+.blue-line:first-child{
+    margin-left: 20px;
+}
+
+.solid-blue-line{
+    background-color: rgb(16, 43, 64);
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+}
+
+.green-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.green-boxes{
+    display: flex;
+}
+
+.green-boxes .green-box{
+    margin: 0 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.green-buttons .green-button{
+    width: 80px;
+    height: 30px;
+    margin: 0 10px 10px 20px;
+}
+
+.green-boxes .green-box:nth-child(3){
+    margin-right: 20px;
+}
+
+.col-3{
+    width: calc(100% * 3 / 12);
+    border-radius: 0;
+    margin-top: 50px;
+}
+
+.white-section-elements>.green-box
+{
+    height: 35vh;
+}
+
+.striped {background: repeating-linear-gradient(
+    -45deg,
+    rgb(28, 200, 160),
+    rgb(28, 200, 160) 10px,
+    #000 10px,
+    #000 20px
+  );
+}
+
+.blue-circle-wrapper{
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.blue-circle{
+    background-color: rgb(16, 43, 64);
+    height: 30vh;
+    border-radius: 50%;
+    margin: 25%;
+}
+
+.blue-circle-wrapper > .blue-lines{
+    margin: 0 25%;
+}
+
+.blue-circle-wrapper > .blue-lines > .blue-line{
+    width: 80px;
+}
+
+
+.blue-circle-wrapper > .green-lines{
+    justify-content: center;
+    margin: 0 25%;
+}
+
+.blue-circle-wrapper > .green-lines > .green-line{
+    margin: 20px 3px;
+    width: 50px;
+}
+
+footer{
+    width: 100vw;
+    background-color: rgb(16, 43, 64);
+}
+
+.footer-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-left-column .green-boxes .green-box{
+    width: 50px;
+    height: 50px;
+    margin: 40px 10px;
+}
+
+
+.footer-left-column .green-lines{
+    display: flex;
+}
+
+.footer-left-column .green-lines .green-line{
+    width: 50px;
+}
+
+.footer-right-column{
+    display: flex;
+}
+
+.footer-list{
+    margin: 30px 50px;
+}
+
+
+.footer-list .green-line{
+    margin-left: 0;
+    margin-bottom: 30px;
+    height: 8px;
+    width: 100px;
+}
+
+.footer-list .gray-line{
+    margin-bottom: 15px;
+    width: 70px;
+}
+
+
+
